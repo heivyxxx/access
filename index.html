@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bazara Access — Digital Security Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <meta name="description" content="Bazara Access — платформа для безопасного управления доступом и данными вашей команды. Синхронизация, защита, удобство.">
+  <meta name="keywords" content="безопасность, доступ, команда, синхронизация, хранение данных, Bazara Access, цифровая платформа">
+  <meta property="og:title" content="Bazara Access — цифровая безопасность для команд">
+  <meta property="og:description" content="Платформа для безопасного управления доступом и данными вашей команды. Синхронизация, защита, удобство.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:type" content="website">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .modal-fade { transition: opacity 0.2s; }
+    .modal-fade.hidden { opacity: 0; pointer-events: none; }
+    .modal-fade.visible { opacity: 1; pointer-events: auto; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+  <header class="p-6 flex justify-between items-center max-w-6xl mx-auto">
+    <div class="flex items-center space-x-3">
+      <img src="assets/logo.png" class="w-10 h-10 rounded" alt="Логотип Bazara Access" />
+      <span class="text-xl font-bold">Bazara Access</span>
+    </div>
+    <nav class="space-x-6 text-gray-300">
+      <a href="#features" class="hover:text-white">Возможности</a>
+      <a href="#pricing" class="hover:text-white">Тарифы</a>
+      <a href="#contact" class="hover:text-white">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="text-center py-24 px-4">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Цифровая безопасность для современных команд</h1>
+    <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-8">
+      Объединяйте доступ вашей команды и храните данные синхронизированными и защищёнными — всё в одной мощной платформе.
+    </p>
+    <div class="space-x-4">
+      <a href="#pricing" class="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-lg font-semibold">Попробовать бесплатно</a>
+      <a href="#features" class="border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white py-3 px-6 rounded-lg font-semibold">Посмотреть возможности</a>
+    </div>
+  </section>
+
+  <section id="features" class="max-w-6xl mx-auto px-4 py-20">
+    <h2 class="text-3xl font-bold text-center mb-12">Основные возможности</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Менеджер безопасного доступа</h3>
+        <p class="text-gray-400">Управляйте и контролируйте, кто имеет доступ к вашим цифровым ресурсам с помощью ролевой безопасности.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Общие командные хранилища</h3>
+        <p class="text-gray-400">Безопасно храните и делитесь важными данными команды в зашифрованных хранилищах.</p>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-2">Умная синхронизация данных</h3>
+        <p class="text-gray-400">Держите ваши данные синхронизированными и защищёнными во всех подключённых средах.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="bg-gray-800 py-20 px-4">
+    <h2 class="text-3xl font-bold text-center mb-12">Тарифные планы</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-900 p-6 rounded-xl text-center border border-gray-700">
+        <h3 class="text-xl font-semibold mb-2">Бесплатно</h3>
+        <p class="text-4xl font-bold mb-4">0₽</p>
+        <p class="text-gray-400 mb-6">Базовый доступ с ограниченными возможностями для команды</p>
+        <a href="#" class="bg-orange-500 text-white py-2 px-6 rounded-lg font-semibold">Выбрать</a>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-xl text-center border-2 border-orange-500">
+        <h3 class="text-xl font-semibold mb-2">ПРО</h3>
+        <p class="text-4xl font-bold mb-4">599₽</p>
+        <p class="text-gray-400 mb-6">Расширенные функции для профессионалов</p>
+        <a href="#" class="bg-orange-500 text-white py-2 px-6 rounded-lg font-semibold">Выбрать</a>
+      </div>
+      <div class="bg-gray-900 p-6 rounded-xl text-center border border-gray-700">
+        <h3 class="text-xl font-semibold mb-2">Бизнес</h3>
+        <p class="text-4xl font-bold mb-4">1799₽</p>
+        <p class="text-gray-400 mb-6">Полный функционал для команд и организаций</p>
+        <a href="#" class="bg-orange-500 text-white py-2 px-6 rounded-lg font-semibold">Выбрать</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm" id="contact">
+    <p>&copy; 2025 Bazara Access. Все права защищены.</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" id="privacyBtn">Политика конфиденциальности</a>
+      <a href="#" id="termsBtn">Пользовательское соглашение</a>
+      <a href="#" id="offerBtn">Публичная оферта</a>
+    </div>
+  </footer>
+
+  <!-- Модалка Privacy Policy -->
+  <div id="privacyModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden modal-fade" onclick="if(event.target===this)closeModal('privacyModal')">
+    <div class="bg-gray-900 rounded-xl max-w-lg w-full p-8 relative">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closeModal('privacyModal')">&times;</button>
+      <h2 class="text-2xl font-bold mb-4">Политика конфиденциальности</h2>
+      <div class="text-gray-300 text-sm max-h-96 overflow-y-auto" style="white-space: pre-line;">
+        <b>Политика конфиденциальности</b>
+        
+        Настоящая Политика конфиденциальности определяет порядок обработки и защиты персональных данных пользователей сайта Bazara Access, расположенного по адресу: <u>https://bazaraccess.vercel.app</u>.
+        
+        1. <b>Общие положения</b>
+        1.1. Индивидуальный предприниматель — Маркин Александр Викторович (ИНН 253721761195, г. Владивосток, ул. Фастовская, д. 14), далее — «Оператор», осуществляет сбор и обработку персональных данных в соответствии с законодательством Российской Федерации.
+        1.2. Настоящая Политика действует в отношении всей информации, которую Оператор может получить о пользователе во время использования сайта и предоставления услуг.
+        
+        2. <b>Обрабатываемые данные</b>
+        2.1. Оператор обрабатывает следующие данные:
+        — Имя, адрес электронной почты;
+        — Номер телефона;
+        — IP-адрес, данные cookie, информация о браузере;
+        — Иные данные, добровольно предоставленные пользователем.
+        
+        3. <b>Цели обработки данных</b>
+        3.1. Персональные данные собираются и обрабатываются в следующих целях:
+        — Предоставление доступа к функционалу сайта;
+        — Поддержка пользователей и обратная связь;
+        — Улучшение качества услуг;
+        — Исполнение требований законодательства РФ.
+        
+        4. <b>Условия обработки и хранения данных</b>
+        4.1. Персональные данные обрабатываются на законной и справедливой основе, с согласия субъекта данных.
+        4.2. Данные хранятся не дольше, чем этого требуют цели обработки.
+        4.3. Обработка может осуществляться с использованием средств автоматизации или без них.
+        
+        5. <b>Передача данных третьим лицам</b>
+        5.1. Оператор не передаёт персональные данные третьим лицам, за исключением случаев, предусмотренных законодательством или когда это необходимо для оказания услуг.
+        5.2. В случае передачи данных третьим лицам, Оператор обеспечивает конфиденциальность и безопасность этих данных.
+        
+        6. <b>Права пользователя</b>
+        6.1. Пользователь имеет право:
+        — Запросить доступ к своим данным;
+        — Требовать уточнения или удаления данных;
+        — Отозвать согласие на обработку персональных данных.
+        
+        7. <b>Защита персональных данных</b>
+        7.1. Оператор принимает необходимые технические и организационные меры для защиты персональных данных от несанкционированного доступа, изменения, раскрытия или уничтожения.
+        
+        8. <b>Использование cookies</b>
+        8.1. Сайт может использовать файлы cookie для улучшения пользовательского опыта.
+        8.2. Пользователь может отключить cookies в настройках браузера.
+        
+        9. <b>Контактная информация</b>
+        По всем вопросам, связанным с обработкой персональных данных, вы можете связаться с Оператором:
+        E-mail: <u>support@bazara-access.com</u>
+        ИНН: 253721761195
+        ФИО: Маркин Александр Викторович
+        Адрес: 690049, г. Владивосток, ул. Фастовская, д. 14
+        
+        10. <b>Заключительные положения</b>
+        10.1. Оператор вправе вносить изменения в настоящую Политику. Актуальная версия всегда доступна на сайте.
+        10.2. Политика вступает в силу с момента её размещения на сайте.
+      </div>
+    </div>
+  </div>
+
+  <!-- Модалка Terms of Service -->
+  <div id="termsModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden modal-fade" onclick="if(event.target===this)closeModal('termsModal')">
+    <div class="bg-gray-900 rounded-xl max-w-lg w-full p-8 relative">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closeModal('termsModal')">&times;</button>
+      <h2 class="text-2xl font-bold mb-4">Пользовательское соглашение</h2>
+      <div class="text-gray-300 text-sm max-h-96 overflow-y-auto" style="white-space: pre-line;">
+        <b>Общие положения</b>
+        Настоящее Соглашение регулирует отношения между пользователем сайта Bazara Access (далее — «Пользователь») и самозанятым Маркиным Александром Викторовичем (ИНН 253721761195, г. Владивосток, ул. Фастовская, д. 14), далее — «Оператор».
+
+        <b>Использование сайта</b>
+        2.1. Пользователь обязуется предоставлять достоверные данные и не использовать сайт в противоправных целях.
+        2.2. Все материалы сайта предоставлены для информационного и коммерческого использования в рамках предоставляемого функционала.
+
+        <b>Ограничение ответственности</b>
+        3.1. Оператор не несёт ответственности за сбои, ошибки, потерю данных или ущерб, причинённый третьими лицами.
+        3.2. Услуги предоставляются «как есть» и не имеют гарантий в отношении результатов.
+
+        <b>Порядок возврата</b>
+        Возврат средств возможен по письменному запросу на электронную почту support@bazara-access.com в течение 7 календарных дней с момента оплаты, при наличии объективных причин и невоспользования услугой.
+
+        <b>Изменение условий</b>
+        Оператор оставляет за собой право в одностороннем порядке вносить изменения в настоящее Соглашение. Актуальная редакция всегда доступна на сайте.
+
+        <b>Контакты</b>
+        По всем вопросам можно обращаться на почту: support@bazara-access.com
+      </div>
+    </div>
+  </div>
+
+  <!-- Модалка Контакты -->
+  <div id="contactModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden modal-fade" onclick="if(event.target===this)closeModal('contactModal')">
+    <div class="bg-gray-900 rounded-xl max-w-lg w-full p-8 relative">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closeModal('contactModal')">&times;</button>
+      <h2 class="text-2xl font-bold mb-4">Контакты</h2>
+      <div class="text-gray-300 text-sm space-y-2">
+        <p>По всем вопросам обращайтесь:</p>
+        <p>Email: <a href="mailto:support@bazara-access.com" class="text-orange-400 hover:underline">support@bazara-access.com</a></p>
+        <p>Телефон: <a href="tel:+79140763173" class="text-orange-400 hover:underline">+7 (914) 076-31-73</a></p>
+        <p>Адрес: г. Владивосток, ул. Фастовская, д. 14</p>
+        <p>Самозанятый, ИНН 253721761195</p>
+        <form class="mt-4 space-y-2">
+          <input type="text" placeholder="Ваше имя" class="w-full bg-gray-800 rounded px-3 py-2 text-white" required>
+          <input type="email" placeholder="Ваш email" class="w-full bg-gray-800 rounded px-3 py-2 text-white" required>
+          <textarea placeholder="Сообщение" class="w-full bg-gray-800 rounded px-3 py-2 text-white" rows="3" required></textarea>
+          <label class="flex items-center text-xs text-gray-400"><input type="checkbox" required class="mr-2">Я согласен с <a href="#" onclick="openModal('privacyModal');return false;" class="text-orange-400 hover:underline ml-1">политикой конфиденциальности</a></label>
+          <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded-lg font-semibold w-full">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Модалка Try for Free -->
+  <div id="tryModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden modal-fade" onclick="if(event.target===this)closeModal('tryModal')">
+    <div class="bg-gray-900 rounded-xl max-w-lg w-full p-8 relative">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closeModal('tryModal')">&times;</button>
+      <h2 class="text-2xl font-bold mb-4">Регистрация</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Имя" class="w-full bg-gray-800 rounded px-3 py-2 text-white" required>
+        <input type="email" placeholder="Email" class="w-full bg-gray-800 rounded px-3 py-2 text-white" required>
+        <label class="flex items-center text-xs text-gray-400"><input type="checkbox" required class="mr-2">Я согласен с <a href="#" onclick="openModal('privacyModal');return false;" class="text-orange-400 hover:underline ml-1">политикой конфиденциальности</a></label>
+        <button type="submit" class="bg-orange-500 hover:bg-orange-600 text-white py-2 px-6 rounded-lg font-semibold w-full">Зарегистрироваться</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Модалка Публичная оферта -->
+  <div id="offerModal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 hidden modal-fade" onclick="if(event.target===this)closeModal('offerModal')">
+    <div class="bg-gray-900 rounded-xl max-w-lg w-full p-8 relative">
+      <button class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl" onclick="closeModal('offerModal')">&times;</button>
+      <h2 class="text-2xl font-bold mb-4">Публичная оферта</h2>
+      <div class="text-gray-300 text-sm max-h-96 overflow-y-auto" style="white-space: pre-line;">
+        <b>Публичная оферта</b>
+
+        <b>Предмет оферты</b>
+        Настоящий документ является официальным предложением (офертой) самозанятого Маркина Александра Викторовича (ИНН 253721761195, адрес: г. Владивосток, ул. Фастовская, д. 14) заключить договор на возмездное оказание услуг с любым физическим лицом, принявшим данное предложение (далее — «Пользователь»).
+
+        <b>Акцепт оферты</b>
+        Полным и безоговорочным принятием условий настоящей оферты (акцептом) считается факт оплаты услуг через сайт или иным способом. С момента акцепта договор считается заключённым.
+
+        <b>Описание услуг</b>
+        Оператор предоставляет доступ к цифровым сервисам и инструментам на сайте https://bazara-access.com. Услуги оказываются дистанционно.
+
+        <b>Стоимость и порядок оплаты</b>
+        Стоимость услуг указывается на сайте. Оплата осуществляется онлайн через платёжные системы. Возврат возможен по запросу в течение 7 календарных дней при наличии обоснованной причины.
+
+        <b>Ответственность сторон</b>
+        Оператор не несёт ответственности за:
+        — Сбои в работе сайта, вызванные действиями третьих лиц;
+        — Потерю данных Пользователя;
+        — Нарушение Пользователем условий настоящей оферты.
+
+        <b>Заключительные положения</b>
+        Настоящая оферта действует бессрочно, пока размещена на сайте. Оператор вправе вносить изменения в одностороннем порядке.
+
+        <b>Контакты</b>
+        ИНН: 253721761195
+        ФИО: Маркин Александр Викторович
+        E-mail: support@bazara-access.com
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Открытие/закрытие модалок с анимацией
+    function openModal(id) {
+      const modal = document.getElementById(id);
+      modal.classList.remove('hidden');
+      setTimeout(() => modal.classList.add('visible'), 10);
+    }
+    function closeModal(id) {
+      const modal = document.getElementById(id);
+      modal.classList.remove('visible');
+      setTimeout(() => modal.classList.add('hidden'), 200);
+    }
+    // Обработчики для футера
+    var privacyBtn = document.getElementById('privacyBtn');
+    if (privacyBtn) privacyBtn.onclick = function(e) { e.preventDefault(); e.stopImmediatePropagation(); openModal('privacyModal'); };
+    var termsBtn = document.getElementById('termsBtn');
+    if (termsBtn) termsBtn.onclick = function(e) { e.preventDefault(); e.stopImmediatePropagation(); openModal('termsModal'); };
+    var offerBtn = document.getElementById('offerBtn');
+    if (offerBtn) offerBtn.onclick = function(e) { e.preventDefault(); e.stopImmediatePropagation(); openModal('offerModal'); };
+    // Кнопка Contact в шапке
+    var contactNav = document.querySelector('nav a[href="#contact"]');
+    if (contactNav) contactNav.onclick = function(e) { e.preventDefault(); openModal('contactModal'); };
+    // Try for Free (первая большая кнопка)
+    var tryBtn = document.querySelector('a.bg-orange-500.py-3');
+    if (tryBtn) tryBtn.onclick = function(e) { e.preventDefault(); openModal('tryModal'); };
+    // Explore Features (вторая большая кнопка)
+    var featuresBtn = document.querySelector('a.border.border-orange-500');
+    if (featuresBtn) featuresBtn.onclick = function(e) { e.preventDefault(); document.getElementById('features').scrollIntoView({ behavior: 'smooth' }); };
+    // Кнопки 'Выбрать' в тарифах — открывают форму регистрации
+    document.querySelectorAll('a.bg-orange-500.text-white').forEach(btn => {
+      if(btn.textContent.trim() === 'Выбрать') {
+        btn.onclick = function(e) { e.preventDefault(); openModal('tryModal'); };
+      }
+    });
+    // Плавный скролл для меню 'Возможности' и 'Тарифы'
+    var navFeatures = document.querySelector('nav a[href="#features"]');
+    if (navFeatures) navFeatures.onclick = function(e) { e.preventDefault(); document.getElementById('features').scrollIntoView({ behavior: 'smooth' }); };
+    var navPricing = document.querySelector('nav a[href="#pricing"]');
+    if (navPricing) navPricing.onclick = function(e) { e.preventDefault(); document.getElementById('pricing').scrollIntoView({ behavior: 'smooth' }); };
+    // Подтверждение отправки форм и базовая валидация email
+    document.querySelectorAll('#tryModal form, #contactModal form').forEach(form => {
+      form.onsubmit = function(e) {
+        e.preventDefault();
+        const email = form.querySelector('input[type="email"]');
+        if(email && !/^\S+@\S+\.\S+$/.test(email.value)) {
+          email.classList.add('border-red-500');
+          email.focus();
+          return false;
+        } else if(email) {
+          email.classList.remove('border-red-500');
+        }
+        form.reset();
+        closeModal(form.closest('.modal-fade').id);
+        setTimeout(() => alert('Спасибо! Ваша заявка отправлена.'), 250);
+        return false;
+      }
+    });
+  </script>
+</body>
+</html>
